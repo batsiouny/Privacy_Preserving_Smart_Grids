@@ -1,0 +1,180 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2025-04-29T20:16:56.936541",
+    "data": "Genesis Block",
+    "hash": "6c51880384556e6bacbf5d4f3a6e869d2f3d42b0a252f8b576c97bacc34e1045",
+    "previous_hash": "0",
+    "nonce": 0
+  },
+  {
+    "index": 1,
+    "timestamp": "2025-04-29T20:16:56.936603",
+    "data": {
+      "event": "FL_INITIALIZATION",
+      "timestamp": "2025-04-29T20:16:56.936599",
+      "num_clients": 5,
+      "num_rounds": 5,
+      "privacy_mechanism": "None"
+    },
+    "hash": "00399b6632fa4eb8c1859ec73dcead9a8566e450199ad5e302b1ead8f1a7376c",
+    "previous_hash": "6c51880384556e6bacbf5d4f3a6e869d2f3d42b0a252f8b576c97bacc34e1045",
+    "nonce": 151
+  },
+  {
+    "index": 2,
+    "timestamp": "2025-04-29T20:16:56.953400",
+    "data": {
+      "round": 1,
+      "timestamp": "2025-04-29T20:16:56.953382",
+      "parameters_summary": {
+        "coef_mean": 0.3237276798627321,
+        "coef_std": 0.44586127161008965,
+        "intercept": 1.6860652438171144
+      },
+      "metrics": {
+        "mae": 1.358735416442549,
+        "mse": 2.8217226400857593
+      },
+      "num_clients": 5,
+      "client_ids": [
+        "Client-1",
+        "Client-2",
+        "Client-3",
+        "Client-4",
+        "Client-5"
+      ]
+    },
+    "hash": "0003c69f6314c987f5a44399b5dafd647461ef61c7b25d50ffae8c122d96a64b",
+    "previous_hash": "00399b6632fa4eb8c1859ec73dcead9a8566e450199ad5e302b1ead8f1a7376c",
+    "nonce": 654
+  },
+  {
+    "index": 3,
+    "timestamp": "2025-04-29T20:16:56.966677",
+    "data": {
+      "round": 2,
+      "timestamp": "2025-04-29T20:16:56.966660",
+      "parameters_summary": {
+        "coef_mean": 0.3237276798627321,
+        "coef_std": 0.44586127161008965,
+        "intercept": 1.6860652438171144
+      },
+      "metrics": {
+        "mae": 1.358735416442549,
+        "mse": 2.8217226400857593
+      },
+      "num_clients": 5,
+      "client_ids": [
+        "Client-1",
+        "Client-2",
+        "Client-3",
+        "Client-4",
+        "Client-5"
+      ]
+    },
+    "hash": "00b1bf459edba256ab00701c0204b863fdf74f469f7bfc51b701cafbfdeca652",
+    "previous_hash": "0003c69f6314c987f5a44399b5dafd647461ef61c7b25d50ffae8c122d96a64b",
+    "nonce": 82
+  },
+  {
+    "index": 4,
+    "timestamp": "2025-04-29T20:16:56.971085",
+    "data": {
+      "round": 3,
+      "timestamp": "2025-04-29T20:16:56.971069",
+      "parameters_summary": {
+        "coef_mean": 0.3237276798627321,
+        "coef_std": 0.44586127161008965,
+        "intercept": 1.6860652438171144
+      },
+      "metrics": {
+        "mae": 1.358735416442549,
+        "mse": 2.8217226400857593
+      },
+      "num_clients": 5,
+      "client_ids": [
+        "Client-1",
+        "Client-2",
+        "Client-3",
+        "Client-4",
+        "Client-5"
+      ]
+    },
+    "hash": "00026c42da7973e65e1043df1ff0473033340696a00f5983b012f363e412a913",
+    "previous_hash": "00b1bf459edba256ab00701c0204b863fdf74f469f7bfc51b701cafbfdeca652",
+    "nonce": 129
+  },
+  {
+    "index": 5,
+    "timestamp": "2025-04-29T20:16:56.975590",
+    "data": {
+      "round": 4,
+      "timestamp": "2025-04-29T20:16:56.975578",
+      "parameters_summary": {
+        "coef_mean": 0.3237276798627321,
+        "coef_std": 0.44586127161008965,
+        "intercept": 1.6860652438171144
+      },
+      "metrics": {
+        "mae": 1.358735416442549,
+        "mse": 2.8217226400857593
+      },
+      "num_clients": 5,
+      "client_ids": [
+        "Client-1",
+        "Client-2",
+        "Client-3",
+        "Client-4",
+        "Client-5"
+      ]
+    },
+    "hash": "003587cc383138f87eb8817e3ae991d1d0f3f3ad42c15927b2d8323a98676003",
+    "previous_hash": "00026c42da7973e65e1043df1ff0473033340696a00f5983b012f363e412a913",
+    "nonce": 544
+  },
+  {
+    "index": 6,
+    "timestamp": "2025-04-29T20:16:56.986952",
+    "data": {
+      "round": 5,
+      "timestamp": "2025-04-29T20:16:56.986935",
+      "parameters_summary": {
+        "coef_mean": 0.3237276798627321,
+        "coef_std": 0.44586127161008965,
+        "intercept": 1.6860652438171144
+      },
+      "metrics": {
+        "mae": 1.358735416442549,
+        "mse": 2.8217226400857593
+      },
+      "num_clients": 5,
+      "client_ids": [
+        "Client-1",
+        "Client-2",
+        "Client-3",
+        "Client-4",
+        "Client-5"
+      ]
+    },
+    "hash": "00d90fa5bc47ae1e487726a8f727a876fd774793b176e47ef5cad80854f00945",
+    "previous_hash": "003587cc383138f87eb8817e3ae991d1d0f3f3ad42c15927b2d8323a98676003",
+    "nonce": 114
+  },
+  {
+    "index": 7,
+    "timestamp": "2025-04-29T20:16:56.988663",
+    "data": {
+      "event": "FL_COMPLETION",
+      "timestamp": "2025-04-29T20:16:56.988660",
+      "final_metrics": {
+        "mae": 1.358735416442549,
+        "mse": 2.8217226400857593
+      },
+      "num_blocks": 7
+    },
+    "hash": "0079dd3de704c6c23685ddc82896fbedf4de958bad72d139fbca993bd0496e9b",
+    "previous_hash": "00d90fa5bc47ae1e487726a8f727a876fd774793b176e47ef5cad80854f00945",
+    "nonce": 392
+  }
+]

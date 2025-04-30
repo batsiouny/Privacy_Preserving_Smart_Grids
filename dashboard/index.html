@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Privacy-Preserving Smart Grid Dashboard</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                text-align: center;
+                padding: 20px 0;
+                margin-bottom: 30px;
+                background-color: #4b6cb7;
+                color: white;
+                border-radius: 5px;
+            }
+            .section {
+                background-color: white;
+                padding: 20px;
+                margin-bottom: 30px;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+            .section h2 {
+                border-bottom: 1px solid #eee;
+                padding-bottom: 10px;
+                color: #4b6cb7;
+            }
+            .visualization {
+                text-align: center;
+                margin: 20px 0;
+            }
+            .visualization img {
+                max-width: 100%;
+                height: auto;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 5px;
+            }
+            .visualization-description {
+                margin-top: 10px;
+                font-style: italic;
+                color: #666;
+            }
+            footer {
+                text-align: center;
+                margin-top: 30px;
+                padding: 20px;
+                color: #666;
+                font-size: 0.8em;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+                grid-gap: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Privacy-Preserving Smart Grid Dashboard</h1>
+            <p>Visualizing the performance and privacy tradeoffs in smart grid federated learning</p>
+        </div>
+        
+        <div class="section">
+            <h2>Privacy-Utility Tradeoff</h2>
+            <div class="visualization">
+                <img src="privacy_utility_tradeoff.png" alt="Privacy-Utility Tradeoff">
+                <div class="visualization-description">
+                    This chart shows how different privacy configurations affect model accuracy.
+                    Higher privacy typically results in lower utility (higher error).
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Performance Metrics</h2>
+            <div class="visualization">
+                <img src="performance_metrics.png" alt="Performance Metrics">
+                <div class="visualization-description">
+                    These charts show computation time and communication overhead per round.
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Privacy Budget</h2>
+            <div class="visualization">
+                <img src="privacy_budget.png" alt="Privacy Budget">
+                <div class="visualization-description">
+                    This chart shows how the privacy budget is spent over time with differential privacy.
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Blockchain Integration</h2>
+            <div class="grid">
+                <div class="visualization">
+                    <img src="blockchain_performance.png" alt="Blockchain Performance">
+                    <div class="visualization-description">
+                        Model performance metrics recorded in the blockchain.
+                    </div>
+                </div>
+                <div class="visualization">
+                    <img src="mining_times.png" alt="Mining Times">
+                    <div class="visualization-description">
+                        Time required to mine each block in the blockchain.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Generated on: 2025-04-29 20:34:49</p>
+            <p>Privacy-Preserving Smart Grid Project</p>
+        </footer>
+    </body>
+    </html>
+    
