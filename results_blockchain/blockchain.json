@@ -1,40 +1,40 @@
 [
   {
     "index": 0,
-    "timestamp": "2025-04-29T20:16:56.936541",
+    "timestamp": "2025-05-01T17:44:30.958199",
     "data": "Genesis Block",
-    "hash": "6c51880384556e6bacbf5d4f3a6e869d2f3d42b0a252f8b576c97bacc34e1045",
+    "hash": "4144b17d498e11c683d4e6ecc88e8ecde0c7aa52156702f65732ddcf4e312b2b",
     "previous_hash": "0",
     "nonce": 0
   },
   {
     "index": 1,
-    "timestamp": "2025-04-29T20:16:56.936603",
+    "timestamp": "2025-05-01T17:44:30.958256",
     "data": {
       "event": "FL_INITIALIZATION",
-      "timestamp": "2025-04-29T20:16:56.936599",
+      "timestamp": "2025-05-01T17:44:30.958253",
       "num_clients": 5,
       "num_rounds": 5,
       "privacy_mechanism": "None"
     },
-    "hash": "00399b6632fa4eb8c1859ec73dcead9a8566e450199ad5e302b1ead8f1a7376c",
-    "previous_hash": "6c51880384556e6bacbf5d4f3a6e869d2f3d42b0a252f8b576c97bacc34e1045",
-    "nonce": 151
+    "hash": "009a26968d216ca91d56997099f54ea9f999c1fdab9ee1ea93aee653d4678e86",
+    "previous_hash": "4144b17d498e11c683d4e6ecc88e8ecde0c7aa52156702f65732ddcf4e312b2b",
+    "nonce": 471
   },
   {
     "index": 2,
-    "timestamp": "2025-04-29T20:16:56.953400",
+    "timestamp": "2025-05-01T17:44:30.980573",
     "data": {
       "round": 1,
-      "timestamp": "2025-04-29T20:16:56.953382",
+      "timestamp": "2025-05-01T17:44:30.980557",
       "parameters_summary": {
-        "coef_mean": 0.3237276798627321,
-        "coef_std": 0.44586127161008965,
-        "intercept": 1.6860652438171144
+        "coef_mean": 0.2850816190110257,
+        "coef_std": 0.3550054570608049,
+        "intercept": 1.6541617497829222
       },
       "metrics": {
-        "mae": 1.358735416442549,
-        "mse": 2.8217226400857593
+        "mae": 1.390081613010864,
+        "mse": 2.7667998900705237
       },
       "num_clients": 5,
       "client_ids": [
@@ -45,24 +45,24 @@
         "Client-5"
       ]
     },
-    "hash": "0003c69f6314c987f5a44399b5dafd647461ef61c7b25d50ffae8c122d96a64b",
-    "previous_hash": "00399b6632fa4eb8c1859ec73dcead9a8566e450199ad5e302b1ead8f1a7376c",
-    "nonce": 654
+    "hash": "0024cd8d798cd6a5bf51e8aeaa645c858badf319951cb71d5caa175b7899b081",
+    "previous_hash": "009a26968d216ca91d56997099f54ea9f999c1fdab9ee1ea93aee653d4678e86",
+    "nonce": 117
   },
   {
     "index": 3,
-    "timestamp": "2025-04-29T20:16:56.966677",
+    "timestamp": "2025-05-01T17:44:30.985126",
     "data": {
       "round": 2,
-      "timestamp": "2025-04-29T20:16:56.966660",
+      "timestamp": "2025-05-01T17:44:30.985112",
       "parameters_summary": {
-        "coef_mean": 0.3237276798627321,
-        "coef_std": 0.44586127161008965,
-        "intercept": 1.6860652438171144
+        "coef_mean": 0.2850816190110257,
+        "coef_std": 0.3550054570608049,
+        "intercept": 1.6541617497829222
       },
       "metrics": {
-        "mae": 1.358735416442549,
-        "mse": 2.8217226400857593
+        "mae": 1.390081613010864,
+        "mse": 2.7667998900705237
       },
       "num_clients": 5,
       "client_ids": [
@@ -73,24 +73,24 @@
         "Client-5"
       ]
     },
-    "hash": "00b1bf459edba256ab00701c0204b863fdf74f469f7bfc51b701cafbfdeca652",
-    "previous_hash": "0003c69f6314c987f5a44399b5dafd647461ef61c7b25d50ffae8c122d96a64b",
-    "nonce": 82
+    "hash": "00bd65336601933be0ade59ff62e38dfdb48d748c4e69d3e6c6793dbf1765031",
+    "previous_hash": "0024cd8d798cd6a5bf51e8aeaa645c858badf319951cb71d5caa175b7899b081",
+    "nonce": 713
   },
   {
     "index": 4,
-    "timestamp": "2025-04-29T20:16:56.971085",
+    "timestamp": "2025-05-01T17:44:31.000253",
     "data": {
       "round": 3,
-      "timestamp": "2025-04-29T20:16:56.971069",
+      "timestamp": "2025-05-01T17:44:31.000237",
       "parameters_summary": {
-        "coef_mean": 0.3237276798627321,
-        "coef_std": 0.44586127161008965,
-        "intercept": 1.6860652438171144
+        "coef_mean": 0.2850816190110257,
+        "coef_std": 0.3550054570608049,
+        "intercept": 1.6541617497829222
       },
       "metrics": {
-        "mae": 1.358735416442549,
-        "mse": 2.8217226400857593
+        "mae": 1.390081613010864,
+        "mse": 2.7667998900705237
       },
       "num_clients": 5,
       "client_ids": [
@@ -101,24 +101,24 @@
         "Client-5"
       ]
     },
-    "hash": "00026c42da7973e65e1043df1ff0473033340696a00f5983b012f363e412a913",
-    "previous_hash": "00b1bf459edba256ab00701c0204b863fdf74f469f7bfc51b701cafbfdeca652",
-    "nonce": 129
+    "hash": "00a468daa312e1b2334a86c4c8ff49e4ca9d00b6f4ce17cc040ee18b4114b5ab",
+    "previous_hash": "00bd65336601933be0ade59ff62e38dfdb48d748c4e69d3e6c6793dbf1765031",
+    "nonce": 91
   },
   {
     "index": 5,
-    "timestamp": "2025-04-29T20:16:56.975590",
+    "timestamp": "2025-05-01T17:44:31.007040",
     "data": {
       "round": 4,
-      "timestamp": "2025-04-29T20:16:56.975578",
+      "timestamp": "2025-05-01T17:44:31.007017",
       "parameters_summary": {
-        "coef_mean": 0.3237276798627321,
-        "coef_std": 0.44586127161008965,
-        "intercept": 1.6860652438171144
+        "coef_mean": 0.2850816190110257,
+        "coef_std": 0.3550054570608049,
+        "intercept": 1.6541617497829222
       },
       "metrics": {
-        "mae": 1.358735416442549,
-        "mse": 2.8217226400857593
+        "mae": 1.390081613010864,
+        "mse": 2.7667998900705237
       },
       "num_clients": 5,
       "client_ids": [
@@ -129,24 +129,24 @@
         "Client-5"
       ]
     },
-    "hash": "003587cc383138f87eb8817e3ae991d1d0f3f3ad42c15927b2d8323a98676003",
-    "previous_hash": "00026c42da7973e65e1043df1ff0473033340696a00f5983b012f363e412a913",
-    "nonce": 544
+    "hash": "00e74cc9c788cdb585610e628d71ab8d861a66cceacec07ba77fba8dc5b484ee",
+    "previous_hash": "00a468daa312e1b2334a86c4c8ff49e4ca9d00b6f4ce17cc040ee18b4114b5ab",
+    "nonce": 34
   },
   {
     "index": 6,
-    "timestamp": "2025-04-29T20:16:56.986952",
+    "timestamp": "2025-05-01T17:44:31.010394",
     "data": {
       "round": 5,
-      "timestamp": "2025-04-29T20:16:56.986935",
+      "timestamp": "2025-05-01T17:44:31.010378",
       "parameters_summary": {
-        "coef_mean": 0.3237276798627321,
-        "coef_std": 0.44586127161008965,
-        "intercept": 1.6860652438171144
+        "coef_mean": 0.2850816190110257,
+        "coef_std": 0.3550054570608049,
+        "intercept": 1.6541617497829222
       },
       "metrics": {
-        "mae": 1.358735416442549,
-        "mse": 2.8217226400857593
+        "mae": 1.390081613010864,
+        "mse": 2.7667998900705237
       },
       "num_clients": 5,
       "client_ids": [
@@ -157,24 +157,24 @@
         "Client-5"
       ]
     },
-    "hash": "00d90fa5bc47ae1e487726a8f727a876fd774793b176e47ef5cad80854f00945",
-    "previous_hash": "003587cc383138f87eb8817e3ae991d1d0f3f3ad42c15927b2d8323a98676003",
-    "nonce": 114
+    "hash": "009fb4572fc975d26dfd8dc00fe01204495f96574dbc9bf226e8691eb000103e",
+    "previous_hash": "00e74cc9c788cdb585610e628d71ab8d861a66cceacec07ba77fba8dc5b484ee",
+    "nonce": 101
   },
   {
     "index": 7,
-    "timestamp": "2025-04-29T20:16:56.988663",
+    "timestamp": "2025-05-01T17:44:31.011926",
     "data": {
       "event": "FL_COMPLETION",
-      "timestamp": "2025-04-29T20:16:56.988660",
+      "timestamp": "2025-05-01T17:44:31.011923",
       "final_metrics": {
-        "mae": 1.358735416442549,
-        "mse": 2.8217226400857593
+        "mae": 1.390081613010864,
+        "mse": 2.7667998900705237
       },
       "num_blocks": 7
     },
-    "hash": "0079dd3de704c6c23685ddc82896fbedf4de958bad72d139fbca993bd0496e9b",
-    "previous_hash": "00d90fa5bc47ae1e487726a8f727a876fd774793b176e47ef5cad80854f00945",
-    "nonce": 392
+    "hash": "0084b24b753324970f9410df65d5dddf0a7d2270869617d04e2325a75c2a14c7",
+    "previous_hash": "009fb4572fc975d26dfd8dc00fe01204495f96574dbc9bf226e8691eb000103e",
+    "nonce": 178
   }
 ]

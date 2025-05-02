@@ -1,43 +1,43 @@
 [
   {
     "index": 0,
-    "timestamp": "2025-04-29T20:21:52.306404",
+    "timestamp": "2025-05-01T17:49:55.944847",
     "data": "Genesis Block",
-    "hash": "cc45bdaf7ec8b80a8d01cfb7df7fe9a64671914274b23296259e6d59e62fda2a",
+    "hash": "6207a47b22b47d790595bf032fe910a3e528a69f9ee0e7aa97412914b0223306",
     "previous_hash": "0",
     "nonce": 0
   },
   {
     "index": 1,
-    "timestamp": "2025-04-29T20:21:52.306482",
+    "timestamp": "2025-05-01T17:49:55.944910",
     "data": {
       "event": "FL_INITIALIZATION",
-      "timestamp": "2025-04-29T20:21:52.306478",
+      "timestamp": "2025-05-01T17:49:55.944907",
       "num_clients": 5,
       "num_rounds": 5,
       "privacy_mechanism": "DP",
       "differential_privacy_epsilon": 1.0,
       "secure_aggregation": true
     },
-    "hash": "0014209256f6ae7c4d3b6791adc4d47884cfb196e2eb71934d3a9b7047268f6f",
-    "previous_hash": "cc45bdaf7ec8b80a8d01cfb7df7fe9a64671914274b23296259e6d59e62fda2a",
-    "nonce": 61
+    "hash": "00dbda7235ab6ee1d92c58d5ab969ff39090750c9f36d49c6cb2bb005c915a1d",
+    "previous_hash": "6207a47b22b47d790595bf032fe910a3e528a69f9ee0e7aa97412914b0223306",
+    "nonce": 23
   },
   {
     "index": 2,
-    "timestamp": "2025-04-29T20:21:52.321417",
+    "timestamp": "2025-05-01T17:49:55.959048",
     "data": {
       "round": 1,
-      "timestamp": "2025-04-29T20:21:52.321402",
+      "timestamp": "2025-05-01T17:49:55.959029",
       "parameters_summary": {
-        "coef_mean": 0.25317277516734643,
-        "coef_std": 0.7931965371005731,
-        "intercept": 1.8264851381968512
+        "coef_mean": 0.31938310689384125,
+        "coef_std": 0.8421152177775391,
+        "intercept": 2.020602408675591
       },
       "metrics": {
-        "mae": 1.6482422385586104,
-        "mse": 4.018105731143225,
-        "computation_time": 0.0007090568542480469,
+        "mae": 1.8395282989048092,
+        "mse": 5.012947675624305,
+        "computation_time": 0.000636148452758789,
         "communication_overhead": 400
       },
       "num_clients": 5,
@@ -54,25 +54,25 @@
         "budget_spent": 1.0
       }
     },
-    "hash": "00a95bb056b1e5fb62a6ef0eb34fc4c9cf459d4a7b713238e107e019d9da3d0f",
-    "previous_hash": "0014209256f6ae7c4d3b6791adc4d47884cfb196e2eb71934d3a9b7047268f6f",
-    "nonce": 20
+    "hash": "00823968c2de79488cf1e0e2723d2f5d7db04b85f5f015ca605842225be25a84",
+    "previous_hash": "00dbda7235ab6ee1d92c58d5ab969ff39090750c9f36d49c6cb2bb005c915a1d",
+    "nonce": 135
   },
   {
     "index": 3,
-    "timestamp": "2025-04-29T20:21:52.324520",
+    "timestamp": "2025-05-01T17:49:55.965129",
     "data": {
       "round": 2,
-      "timestamp": "2025-04-29T20:21:52.324504",
+      "timestamp": "2025-05-01T17:49:55.965115",
       "parameters_summary": {
         "coef_mean": -0.034053543584013246,
         "coef_std": 0.624680649035899,
         "intercept": 0.20435754074981535
       },
       "metrics": {
-        "mae": 1.8118770368732147,
-        "mse": 6.1638559827565675,
-        "computation_time": 0.000491476058959961,
+        "mae": 2.035874255669298,
+        "mse": 8.134945495863622,
+        "computation_time": 0.0005652904510498047,
         "communication_overhead": 400
       },
       "num_clients": 5,
@@ -89,25 +89,25 @@
         "budget_spent": 1.0
       }
     },
-    "hash": "0058beefb25643b972b32fe8e8afc0057a01646155b173fdc1dbbdfb5c63d954",
-    "previous_hash": "00a95bb056b1e5fb62a6ef0eb34fc4c9cf459d4a7b713238e107e019d9da3d0f",
-    "nonce": 113
+    "hash": "00d43b7d9ada8a9d5e46698d88b9925581cc5813293e7a64865330b380e0c454",
+    "previous_hash": "00823968c2de79488cf1e0e2723d2f5d7db04b85f5f015ca605842225be25a84",
+    "nonce": 933
   },
   {
     "index": 4,
-    "timestamp": "2025-04-29T20:21:52.329291",
+    "timestamp": "2025-05-01T17:49:55.986042",
     "data": {
       "round": 3,
-      "timestamp": "2025-04-29T20:21:52.329281",
+      "timestamp": "2025-05-01T17:49:55.986027",
       "parameters_summary": {
         "coef_mean": -0.034053543584013246,
         "coef_std": 0.624680649035899,
         "intercept": 0.20435754074981535
       },
       "metrics": {
-        "mae": 1.8118770368732147,
-        "mse": 6.1638559827565675,
-        "computation_time": 0.000484466552734375,
+        "mae": 2.035874255669298,
+        "mse": 8.134945495863622,
+        "computation_time": 0.0005490303039550782,
         "communication_overhead": 400
       },
       "num_clients": 5,
@@ -124,25 +124,25 @@
         "budget_spent": 1.0
       }
     },
-    "hash": "0060fd2aab3da83d6f531f876131d922d051e1ac39285efc5f679d3831156085",
-    "previous_hash": "0058beefb25643b972b32fe8e8afc0057a01646155b173fdc1dbbdfb5c63d954",
-    "nonce": 891
+    "hash": "004f617eb018b45c311f659496fb53876cfb7938718414df97fe8a82643e7661",
+    "previous_hash": "00d43b7d9ada8a9d5e46698d88b9925581cc5813293e7a64865330b380e0c454",
+    "nonce": 375
   },
   {
     "index": 5,
-    "timestamp": "2025-04-29T20:21:52.349318",
+    "timestamp": "2025-05-01T17:49:55.995959",
     "data": {
       "round": 4,
-      "timestamp": "2025-04-29T20:21:52.349305",
+      "timestamp": "2025-05-01T17:49:55.995937",
       "parameters_summary": {
         "coef_mean": -0.034053543584013246,
         "coef_std": 0.624680649035899,
         "intercept": 0.20435754074981535
       },
       "metrics": {
-        "mae": 1.8118770368732147,
-        "mse": 6.1638559827565675,
-        "computation_time": 0.0005198478698730469,
+        "mae": 2.035874255669298,
+        "mse": 8.134945495863622,
+        "computation_time": 0.0005238056182861328,
         "communication_overhead": 400
       },
       "num_clients": 5,
@@ -159,25 +159,25 @@
         "budget_spent": 1.0
       }
     },
-    "hash": "00f311d2d45c72e997db5c27139390c5e4ebf882a71b44886edac686b4638e4b",
-    "previous_hash": "0060fd2aab3da83d6f531f876131d922d051e1ac39285efc5f679d3831156085",
-    "nonce": 122
+    "hash": "000a41a71b58f52224bc01b14686d52fd5d82d604e9c5e4810ec5a9c33759a86",
+    "previous_hash": "004f617eb018b45c311f659496fb53876cfb7938718414df97fe8a82643e7661",
+    "nonce": 471
   },
   {
     "index": 6,
-    "timestamp": "2025-04-29T20:21:52.354237",
+    "timestamp": "2025-05-01T17:49:56.007830",
     "data": {
       "round": 5,
-      "timestamp": "2025-04-29T20:21:52.354224",
+      "timestamp": "2025-05-01T17:49:56.007811",
       "parameters_summary": {
         "coef_mean": -0.034053543584013246,
         "coef_std": 0.624680649035899,
         "intercept": 0.20435754074981535
       },
       "metrics": {
-        "mae": 1.8118770368732147,
-        "mse": 6.1638559827565675,
-        "computation_time": 0.0005043506622314453,
+        "mae": 2.035874255669298,
+        "mse": 8.134945495863622,
+        "computation_time": 0.0006107807159423829,
         "communication_overhead": 400
       },
       "num_clients": 5,
@@ -194,27 +194,27 @@
         "budget_spent": 1.0
       }
     },
-    "hash": "0055c49800e892c1cb2e65aa58724f5d53e13515b153ae7901475752d3412abf",
-    "previous_hash": "00f311d2d45c72e997db5c27139390c5e4ebf882a71b44886edac686b4638e4b",
-    "nonce": 133
+    "hash": "00aa94812705b60fac71fc8087fd5d45808459273039d06c3df70d719118de9e",
+    "previous_hash": "000a41a71b58f52224bc01b14686d52fd5d82d604e9c5e4810ec5a9c33759a86",
+    "nonce": 178
   },
   {
     "index": 7,
-    "timestamp": "2025-04-29T20:21:52.356644",
+    "timestamp": "2025-05-01T17:49:56.011332",
     "data": {
       "event": "FL_COMPLETION",
-      "timestamp": "2025-04-29T20:21:52.356641",
+      "timestamp": "2025-05-01T17:49:56.011322",
       "final_metrics": {
-        "mae": 1.8118770368732147,
-        "mse": 6.1638559827565675,
-        "computation_time": 0.0005043506622314453,
+        "mae": 2.035874255669298,
+        "mse": 8.134945495863622,
+        "computation_time": 0.0006107807159423829,
         "communication_overhead": 400
       },
       "total_privacy_budget_spent": 5.0,
       "num_blocks": 7
     },
-    "hash": "005147822fec55816349854e3202972d72bfc1b4eeac4e0862184c427f7c00b3",
-    "previous_hash": "0055c49800e892c1cb2e65aa58724f5d53e13515b153ae7901475752d3412abf",
-    "nonce": 84
+    "hash": "000d927f52640ab1bc778ef14e45285b2f680f4fe634ac3a2f51ce51993716bc",
+    "previous_hash": "00aa94812705b60fac71fc8087fd5d45808459273039d06c3df70d719118de9e",
+    "nonce": 702
   }
 ]
